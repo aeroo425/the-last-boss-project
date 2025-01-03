@@ -6,10 +6,17 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    function index()
-    {
-        $pageTitle = 'Home';
 
+    
+
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+}
+    public function index()
+    {
+        $pageTitle = 'home';
         return view('home', ['pageTitle' => $pageTitle]);
     }
 }

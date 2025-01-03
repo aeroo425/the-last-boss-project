@@ -22,12 +22,12 @@
 
                 <ul class="navbar-nav flex-row flex-wrap">
                     <li class="nav-item col-2 col-md-auto"><a href="{{ route('home') }}" class="nav-link active">Home</a></li>
-                    <li class="nav-item col-2 col-md-auto"><a href="{{ route('employees.index') }}" class="nav-link">Employee List</a></li>
+
                 </ul>
 
                 <hr class="d-lg-none text-white-50">
 
-                <a href="{{ route('profile') }}" class="btn btn-outline-light my-2 ms-md-auto"><i class="bi-person-circle me-1"></i> My Profile</a>
+              
             </div>
         </div>
     </nav>
@@ -60,9 +60,10 @@
                         <div class="card shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title">KONSULTASI</h5>
-                                <p class="card-text">Description for the second option.</p>
-                                <a href="#" class="btn btn-primary">Go to Option 2</a>
+                                <p class="card-text">KLIK UNTUK INFOERMASI SELANJUTNYA</p>
+                                <a href="{{ route('nomer') }}" class="btn btn-primary">GO TO WHATSAPP</a>
                             </div>
+
                         </div>
                     </div>
                 </div>
